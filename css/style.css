@@ -1,0 +1,49 @@
+
+
+
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazir.ttf"),
+        url("../fonts/Vazir.woff"),
+        url("../fonts/Vazir.woff2")
+}
+@font-face {
+    font-family: irsans;
+    src: url('../fonts/irsans.ttf');
+}
+header{
+    position: relative;
+}
+nav{
+    background-color: rgb(169, 247, 247);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;   
+    padding: 25px 5px;
+    z-index: 9;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header a{
+    font-size: 20px;
+}
+.logo-img{
+    border-radius: 14px;
+    width: 6vw;
+}
+.div-header{
+    position: absolute;
+    top: 50px;
+    padding-top: 100px;
+    background-image: url("../imgs/header.jpg");
+}
+
+
+
+
+
+
