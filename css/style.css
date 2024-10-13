@@ -11,9 +11,6 @@
     font-family: irsans;
     src: url('../fonts/irsans.ttf');
 }
-header{
-    position: relative;
-}
 nav{
     background-color: #8ecae6;
     position: fixed;
@@ -30,6 +27,9 @@ a{
 .a-bold{
     font-weight: bold;
 }
+header{
+    position: relative;
+}
 header a{
     font-size: 20px;
 }
@@ -38,10 +38,11 @@ header a{
     width: 6vw;
 }
 .div-header{
-    position: absolute;
-    top: 50px;
-    padding-top: 280px;
-    padding-bottom: 120px;
+    /* position: absolute; */
+    /* top: 50px; */
+    margin-top: 50px;
+    padding-top: 190px;
+    padding-bottom: 80px;
     background-image: url("../imgs/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -52,6 +53,7 @@ header a{
     background-color: #dad7cd;
     border-radius: 17px;
     padding: 10px 20px;
+    
 }
 h1{
     font-size: 35px;
@@ -60,12 +62,10 @@ h1{
     margin-top: 5px;
     margin-bottom: 10px;
 }
-main{
-    position: relative;
-}
 .serch-header{
     position: relative;
-    top: 510px;
+    top: 100px;
+    /* margin-top: 70px; */
     z-index: 8;
     background-color: #facb54;
     padding: 15px 40px;
@@ -88,6 +88,7 @@ main{
   border-radius: 10px;
   /* display: block; */
   border: 0px;
+  font-size: 16px;
   font-weight: 600;
   box-shadow: 0px 0px 14px -7px #f09819;
   background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
@@ -109,9 +110,126 @@ main{
 }
 
 
+/* //////////////////// parts ///////////////////// */
+
+#parts{
+    margin-top: 10px;
+    padding-top: 75px;
+}
+.h3-div{
+    font-size: 35px;
+    padding-top: 55px;
+    margin-bottom: 35px;
+}
+h3{
+    font-weight: bold;
+    font-family: vazir;
+}
+.card-img{
+    border-radius: 50%;
+    width: 75%;
+    margin-bottom: 15px;
+}
+
+/* ///////////////// articles ////////////////// */
+
+#articles{
+    margin-top: 70px;
+    padding-top: 75px; 
+
+}
+.h3-div a{
+    font-size: 14px;
+}
+.h3-div .button-87{
+    font-size: 20px;
+}
+.articles-bg{
+    background-color: #fcd470;
+    padding-bottom: 20px;
+}
+
+.button-71 {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
 
 
+.button-92 {
+  --c: #fff;
+  /* text color */
+  background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    #004dff;
+  /* background color */
+  border-radius: 21px;
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+}
 
+.button-92:hover,
+.button-92:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
 
+.button-92:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9e9q #0005;
+  transition: 0s;
+}
 
+.button-92 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  cursor: pointer;
+  padding: .2em .7em;
+}
 
