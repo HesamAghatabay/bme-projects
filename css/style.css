@@ -15,7 +15,7 @@ header{
     position: relative;
 }
 nav{
-    background-color: rgb(169, 247, 247);
+    background-color: #8ecae6;
     position: fixed;
     top: 0;
     right: 0;
@@ -26,6 +26,8 @@ nav{
 a{
     text-decoration: none;
     color: black;
+}
+.a-bold{
     font-weight: bold;
 }
 header a{
@@ -38,9 +40,75 @@ header a{
 .div-header{
     position: absolute;
     top: 50px;
-    padding-top: 100px;
-    background-image: url("../imgs/header.jpg");
+    padding-top: 280px;
+    padding-bottom: 120px;
+    background-image: url("../imgs/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
+.name-header{
+    background-color: #dad7cd;
+    border-radius: 17px;
+    padding: 10px 20px;
+}
+h1{
+    font-size: 35px;
+    font-family: vazir;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+main{
+    position: relative;
+}
+.serch-header{
+    position: relative;
+    top: 510px;
+    z-index: 8;
+    background-color: #facb54;
+    padding: 15px 40px;
+    border-radius: 17px;
+}
+.serch-nav{
+    background-color: #facb54c0;
+    padding: 5px 10px;
+    border-radius: 17px;
+
+}
+.button-87 {
+  /* margin: 10px; */
+  padding: 5px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  /* background-size: 200% auto; */
+  color: white;
+  border-radius: 10px;
+  /* display: block; */
+  border: 0px;
+  font-weight: 600;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+
 
 
 
