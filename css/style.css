@@ -11,13 +11,19 @@
     font-family: irsans;
     src: url('../fonts/irsans.ttf');
 }
+.irsans{
+  font-family: irsans;
+}
+.vazir{
+  font-family: vazir;
+}
 nav{
     background-color: #8ecae6;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;   
-    padding: 25px 5px;
+    padding: 15px 5px;
     z-index: 9;
 }
 a{
@@ -150,7 +156,8 @@ h3{
     font-size: 20px;
 }
 .best-articles-bg{
-    background-color: #fcd470;
+    /* background-color: #fcd87e; */
+    background: linear-gradient(#f5e2b144, #ffde8ca2 , #fad26c);
     padding-bottom: 20px;
 }
 
@@ -235,6 +242,24 @@ h3{
   font-size: 18px;
   margin: 0;
   cursor: pointer;
-  padding: .2em .7em;
+  padding: .4em .8em;
 }
+.w-100{
+  width: 100%;
+}
+
+
+
+
+
+
+/* /////////////footer////////////// */
+
+footer{
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
 
