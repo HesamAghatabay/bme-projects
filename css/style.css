@@ -23,7 +23,7 @@ nav{
     top: 0;
     right: 0;
     left: 0;   
-    padding: 15px 5px;
+    padding: 10px 5px;
     z-index: 9;
 }
 a{
@@ -32,8 +32,7 @@ a{
 }
 .h6-dropdown{
   cursor: pointer;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 17px;
 }
 .a-bold{
     font-weight: bold;
@@ -42,7 +41,7 @@ header{
     position: relative;
 }
 header a{
-    font-size: 20px;
+    font-size: 17px;
 }
 .logo-img{
     border-radius: 14px;
@@ -260,6 +259,11 @@ footer{
   right: 0;
   left: 0;
   bottom: 0;
+  background-color: #0078d0;
+  background: linear-gradient(#95d1fcd5, #52acec , #015ea0);
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
-
-
+.i-footer{
+  font-size: 45px;
+}
