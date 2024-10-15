@@ -265,5 +265,21 @@ footer{
   padding-bottom: 10px;
 }
 .i-footer{
-  font-size: 45px;
+  font-size: 35px;
 }
+.flot-left{
+  float: left;
+}
+.f-20{
+  font-size: 20px;
+}
+.ul-none{
+  list-style-type: none;
+}
+
+
+
+
+
+
+
