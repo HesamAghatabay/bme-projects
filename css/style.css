@@ -309,7 +309,7 @@ footer{
   bottom: 0;
   background-color: #0078d0;
   background: linear-gradient(#95d1fcd5, #52acec , #015ea0);
-  padding-top: 60px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 .i-footer{
@@ -327,7 +327,12 @@ footer{
 
 
 
+/* //////////////ostadha////////////// */
 
-
-
+.f-blue{
+  color: blue;
+}
+.f-25{
+  font-size: 25px;
+}
 
