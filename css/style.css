@@ -296,6 +296,22 @@ h3{
 
 
 
+/* //////////////ostadha////////////// */
+
+.f-blue{
+  color: blue;
+}
+.f-25{
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -323,16 +339,5 @@ footer{
 }
 .ul-none{
   list-style-type: none;
-}
-
-
-
-/* //////////////ostadha////////////// */
-
-.f-blue{
-  color: blue;
-}
-.f-25{
-  font-size: 25px;
 }
 
