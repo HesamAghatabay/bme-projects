@@ -121,6 +121,9 @@ h1{
 .button-87:active {
   transform: scale(0.95);
 }
+.dropdown-bg{
+  background-color: rgba(233, 233, 233, 0.753)
+}
 
 
 /* //////////////////// parts ///////////////////// */
@@ -296,11 +299,12 @@ h3{
 
 
 
-/* //////////////ostadha////////////// */
+/* //////////////about////////////// */
 
 #about{
-  background-color: #cef8fa;
-  padding: 25px;
+  background-image: url("../imgs/header.jpg");
+  background: linear-gradient(#cef8fabe , #7ff1f7, #cef8fabe);
+  padding: 35px 10px;
 }
 .f-blue{
   color: blue;
@@ -309,7 +313,7 @@ h3{
   font-size: 25px;
 }
 .img-ostadha{
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -317,6 +321,23 @@ h4{
   font-size: 26px;
   font-weight: bold;
 }
+.video{
+  width: 60%;
+}
+.seener-ostadha{
+  font-size: 20px;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ////////////////other//////////////// */
 
