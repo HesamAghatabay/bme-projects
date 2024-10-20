@@ -138,7 +138,7 @@ h1{
     margin-bottom: 35px;
 }
 .h3-div h3{
-  text-shadow: 1px 4px 7px #096092a6;
+  text-shadow: 1px 4px 7px #2d7ead79;
 }
 h3{
     font-weight: bold;
@@ -353,7 +353,7 @@ h5{
   font-weight: bold;
   padding-top: 15px;
   margin-bottom: 35px;
-  text-shadow: 1px 4px 7px #096092a6;
+  text-shadow: 1px 4px 7px #31759c69;
 }
 .new-card-part{
   width: 130px;
@@ -394,6 +394,40 @@ h5{
   transition: all 600ms ease;
   transform: scale(.95);
 }
+
+
+/* /////////////article///////////////// */
+.article-img{
+  width: 400px;
+  height: 250px;
+}
+.article-text{
+  margin-top: 60px;
+  text-align: right;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .article-img{
+    width: 220px;
+    height: 130px;
+  }
+}
+.sidbar-bg{
+  background-color: #ff522f63;
+  border-radius: 6px;
+}
+.writer-img{
+  width: 90px;
+  height: 120px;
+}
+.writer-profile h6{
+  font-size: 22px;
+}
+
+
+
+
+
 
 
 
