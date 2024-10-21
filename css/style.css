@@ -398,8 +398,8 @@ h5{
 
 /* /////////////article///////////////// */
 .article-img{
-  width: 400px;
-  height: 250px;
+  width: 450px;
+  height: 280px;
 }
 .article-text{
   margin-top: 60px;
@@ -408,8 +408,8 @@ h5{
 }
 @media (max-width: 768px) {
   .article-img{
-    width: 220px;
-    height: 130px;
+    width: 320px;
+    height: 230px;
   }
 }
 .sidbar-bg{
@@ -442,7 +442,7 @@ footer{
   background: linear-gradient(#95d1fcd5, #52acec , #015ea0);
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 170px;
+  margin-top: 200px;
 }
 .i-footer{
   font-size: 35px;
